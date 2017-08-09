@@ -3,7 +3,7 @@
     <head>
        <meta charset="utf-8">
 	   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	   <title>Master CRM</title>
+	   <title>My CRM</title>
 	   <meta name="description" content="">
 	   <meta name="viewport" content="width=device-width, initial-scale=1">
 	
@@ -24,7 +24,7 @@
 		<main class="container">
 		<h1>Dashboard</h1>
 		<hr/>
-			<form action="/MasterCRM/InserirClienteServlet" method="post">
+			<form action="/MyCRM/InserirClienteServlet" method="post">
 			    <div class="form-group">
 			      <label for="campo1">Nome Completo:</label>
 			      <input type="text" size="50" class="form-control" name="nomeCompleto">
@@ -49,7 +49,7 @@
 			  <div id="actions" class="row">
 			    <div class="col-md-12">
 			      <button type="submit" class="btn btn-primary">Salvar</button>
-			      <a href="/MasterCRM/index.jsp" class="btn btn-default">Cancelar</a>
+			      <a href="/MyCRM/index.jsp" class="btn btn-default">Cancelar</a>
 			    </div>
 			  </div>
 			</form>

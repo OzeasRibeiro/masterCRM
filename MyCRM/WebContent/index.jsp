@@ -3,7 +3,7 @@
     <head>
        <meta charset="utf-8">
 	   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	   <title>Master CRM</title>
+	   <title>My CRM</title>
 	   <meta name="description" content="">
 	   <meta name="viewport" content="width=device-width, initial-scale=1">
 	
@@ -39,7 +39,7 @@
 			</div>
 		
 			<div class="col-xs-6 col-sm-3 col-md-2">
-				<a href="/MasterCRM/ListarClientesServlet" class="btn btn-default">
+				<a href="/MyCRM/ListarClientesServlet" class="btn btn-default">
 					<div class="row">
 						<div class="col-xs-12 text-center">
 							<i class="fa fa-user fa-5x"></i>

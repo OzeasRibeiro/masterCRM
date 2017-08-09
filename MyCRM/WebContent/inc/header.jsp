@@ -7,7 +7,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="index.jsp" class="navbar-brand">Master ERP</a>
+          <a href="index.jsp" class="navbar-brand">My CRM</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">        
@@ -16,7 +16,7 @@
                     Cadastro <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a href="/MasterCRM/ListarClientesServlet">Clientes</a></li>
+                    <li><a href="/MyCRM/ListarClientesServlet">Clientes</a></li>
                     <li><a href="#">Fornecedores</a></li>
 					<li><a href="#">Produtos</a></li>
 					<li><a href="#">Serviços</a></li>

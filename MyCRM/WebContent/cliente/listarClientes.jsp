@@ -3,7 +3,7 @@
     <head>
        <meta charset="utf-8">
 	   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	   <title>Master CRM</title>
+	   <title>My CRM</title>
 	   <meta name="description" content="">
 	   <meta name="viewport" content="width=device-width, initial-scale=1">
 	
@@ -25,7 +25,7 @@
 		<h1>Cadastro de Clientes</h1>
 			<a class="btn btn-primary" href="cliente/inserirCliente.jsp"><i class="fa fa-plus"></i> Novo Cliente</a>
 		<hr/>
-			 <form action="/MasterCRM/ListarClientesServlet" method="post">              
+			 <form action="/MyCRM/ListarClientesServlet" method="post">              
                 <c:choose>
                     <c:when test="${not empty listaClientes}">
                         <table  class="table table-striped">
